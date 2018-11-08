@@ -18,7 +18,7 @@ public class Demo03 {
     public static void main(String[] args) {
         //基础数据类型，也叫简单数据类型
         int num = 11;
-        //引用数据类型，也叫符合数据类型
+        //引用数据类型，也叫复合数据类型
         Person person = new Person();
 
         //在Java当中，true、false、null是三个特殊的字面量值.  赋值号=右边的值就是字面量。
@@ -108,9 +108,6 @@ public class Demo03 {
 
         char c12 = '\'';
         System.out.println(c12);
-
-
-
 
     }
 }
