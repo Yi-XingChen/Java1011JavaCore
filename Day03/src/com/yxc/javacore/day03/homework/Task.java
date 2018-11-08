@@ -3,7 +3,7 @@ package com.yxc.javacore.day03.homework;
 /**
  * Copyright(c)2018 YXC.All right Reserved
  * <br>
- * 人类的测试用例
+ * Day03作业
  *
  * @author 3342
  * @version 1.0
