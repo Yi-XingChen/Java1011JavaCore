@@ -1,7 +1,7 @@
 package com.yckj.javacore.day01.homework;
 
 /**
- * Copyright(c) 2018 YXC All right Reserved
+ * Copyright(c) 2018 YXC All rights Reserved
  * <br>
  *     编写HelloWorld小程序
  * <br>

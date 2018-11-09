@@ -1,7 +1,7 @@
 package com.yckj.javacore.day01.lesson;
 
 /**
- * Copyright(c)2018 YCKJ.All right Reserved
+ * Copyright(c)2018 YCKJ.All rights Reserved
  * Hello World程序，Java的第一个入门程序
  *
  * @author 3342
