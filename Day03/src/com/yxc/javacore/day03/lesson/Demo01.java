@@ -1,7 +1,7 @@
 package com.yxc.javacore.day03.lesson;
 
 /**
- * Copyright(c)2018 YXC.All right Reserved
+ * Copyright(c)2018 YXC.All rights Reserved
  * <br>
  * 变量使用的测试
  *
@@ -36,7 +36,7 @@ public class Demo01 {
 
         Person person = new Person();
         System.out.println(person.id);
-        System.out.println(person.name);
+        System.out.println(Person.name);
         System.out.println(person.sex);
         System.out.println(person.age);
         System.out.println(person.height);

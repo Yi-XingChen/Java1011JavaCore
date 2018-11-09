@@ -1,7 +1,7 @@
 package com.yxc.javacore.day03.lesson;
 
 /**
- * Copyright(c)2018 YXC.All right Reserved
+ * Copyright(c)2018 YXC.All rights Reserved
  * <br>
  * 人类的测试用例
  *
@@ -61,7 +61,7 @@ public class Person {
 //        System.out.println(name);
         //调用方式1：通过对象来调用对象的成员变量
         Person person = new Person();
-        System.out.println(person.name);
+        System.out.println(name);
 
         //调用方式二：通过给成员变量添加静态修饰符static，让该成员变量变成静态变量
         System.out.println(name);

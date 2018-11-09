@@ -1,7 +1,7 @@
 package com.yxc.javacore.day03.homework;
 
 /**
- * Copyright(c)2018 YXC.All right Reserved
+ * Copyright(c)2018 YXC.All rights Reserved
  * <br>
  * Day03作业
  *
