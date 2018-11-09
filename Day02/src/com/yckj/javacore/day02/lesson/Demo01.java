@@ -1,7 +1,7 @@
 package com.yckj.javacore.day02.lesson;
 
 /**
- * Copyright(c)2018 YCKJ.All right Reserved
+ * Copyright(c)2018 YCKJ.All rights Reserved
  *<br>
  * 人类型的测试使用
  *

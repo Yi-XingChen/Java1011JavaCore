@@ -1,7 +1,7 @@
 package com.yckj.javacore.day02.lesson;
 
 /**
- * Copyright(c)2018 YXC.All right Reserved
+ * Copyright(c)2018 YXC.All rights Reserved
  * <br>
  * 人类的数据模型
  *<br>
