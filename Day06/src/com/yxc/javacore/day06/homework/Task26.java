@@ -22,11 +22,21 @@ public class Task26 {
         int money = 3;
         for (day = 1;money < 100;day++) {
             if (day % 6 == 0 || money % 6 == 0) {
-                money -= 5;
-            }else {
+                money -= 2;
+            } else {
                 money += 3;
             }
         }
-        System.out.println("所需天数为：" + (day-1));
+
+        /*for (day = 1;money < 100;money += 3,day++) {
+            if (day % 6 == 0 || money % 6 == 0) {
+                money -= 2;
+            }
+        }*/
+        System.out.println("所需天数为：" + day);
+        /*
+        这里有一个值得注意的点是：题目中所说的钱数是指达到那个值的天数，
+        并没有考虑花掉之后不到那个值
+         */
     }
 }
