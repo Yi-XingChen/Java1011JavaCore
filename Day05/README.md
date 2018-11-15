@@ -63,7 +63,8 @@
 - javax.sql：对数据库操作的扩展包。
 - java.awt：支持图形界面程序开发（现在不怎么用）。
 - java.swing：支持图形界面程序开发（现在不怎么用）。
-    java开头的包是java基础包，javax开头的包是java扩展包。
+
+- 注：java开头的包是java基础包，javax开头的包是java扩展包。
 
 
 
