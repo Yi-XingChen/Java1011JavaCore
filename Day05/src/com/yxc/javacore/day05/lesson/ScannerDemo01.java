@@ -26,6 +26,7 @@ public class ScannerDemo01 {
 
         byte f1 = (byte)scanner.nextInt();
         System.out.println(f1);
+
         /*boolean b1 = scanner.nextBoolean();
         System.out.println(b1);*/
 
