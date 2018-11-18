@@ -24,9 +24,10 @@ public class Task22 {
             System.out.println();
         }
 
-        System.out.println();//分隔开
+        //分隔开
+        System.out.println();
         //递减
-        for (int m = 0; m < 6; m++) {
+        for (int m = 0; m < 5; m++) {
             for (int n = 0; n < (5-m); n++) {
                 System.out.print("*");
             }

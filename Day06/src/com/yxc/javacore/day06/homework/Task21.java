@@ -24,14 +24,14 @@ public class Task21 {
         Scanner scanner = new Scanner(System.in);
         int dest = (int) (Math.random() * 100);
         System.out.println("请您输入一个数字：");
-        int num = scanner.nextInt();
 
+        /*int num = scanner.nextInt();
         int i = 1;
         for (i = 1; dest != num; i++) {
             if (num > dest) {
                 System.out.println("您猜大了，请再猜一次");
                 num = scanner.nextInt();
-            } else if (num < dest) {
+            } else {
                 System.out.println("您猜小了，请再猜一次");
                 num = scanner.nextInt();
             }
@@ -39,8 +39,26 @@ public class Task21 {
         scanner.close();
         System.out.println("恭喜您，猜对了");
         System.out.println("您一共猜了" + i + "次");
-        /*这里是i还是（i+1）就需要对for循环的执行过程有一个清楚的理解
+        *//*这里是i还是（i+1）就需要对for循环的执行过程有一个清楚的理解
         重新输入一个数后，是先i++ 然后才进行判断输入的数与生成的数是否一致
          */
+
+
+
+        //方法二：使用do-while
+        int guessNum = -1;
+        int guessCount = 0;
+
+        do {
+            guessNum = scanner.nextInt();
+            guessCount++;
+            if (guessNum > dest) {
+                System.out.println("您猜的数值大了");
+            } else if (guessNum < dest) {
+                System.out.println("您猜的数值小了");
+            } else {
+                System.out.println("恭喜您，猜对了！您一共猜了" + guessCount + "次");
+            }
+        } while (dest != guessNum);
     }
 }

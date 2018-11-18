@@ -19,12 +19,18 @@ public class WhileTask13 {
      */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int num = 0;//保存键盘上输入的整数
-        int max = 0;//保存最大数
+        //保存键盘上输入的整数
+        int num = 0;
+        //保存最大数
+        int max = 0;
 
         while( num != -1) {
             System.out.println("请输入一个正整数, 输入-1表示结束!");
             num = sc.nextInt();
+            if(num < 0 && num != -1) {
+                System.out.println("您输入的值不合法！");
+                continue;
+            }
             //判断num是否为最大数
             if( num > max ){
                 max  = num;
@@ -33,9 +39,6 @@ public class WhileTask13 {
         sc.close();
 
         //输出最大值
-        if( max > 0 ){
-            System.out.println("max==" + max );
-        }
-
+        System.out.println("max == " + max );
     }
 }
