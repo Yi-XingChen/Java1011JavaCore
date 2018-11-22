@@ -21,8 +21,22 @@ public class Student {
 
     private String className;
 
-    //不可变的成员变量名要大写
+    /**
+     * 不可变的成员变量名要大写
+     */
     public final int NUM = 11;
+
+    public static int num = 1;
+
+    public Student(){
+        //非静态的可以访问静态的
+        num++;
+    }
+
+    //静态的不能访问非静态的
+    /*public static void test() {
+        name = 111;
+    }*/
 
     //final不可修饰构造方法
     /*public final Student() {

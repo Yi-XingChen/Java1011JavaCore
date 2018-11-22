@@ -30,9 +30,17 @@ public class Demo03 {
         new Person().schoolName = "太原科技大学";
 
         System.out.println(new Person().schoolName);
-        System.out.println(person.schoolName);
+        System.out.println(person.schoolName);*/
 
-        Person.info();*/
+        Person person = new Person();
+        person.info();
+
+        Person.info();
+
+        Person.schoolName = "太原理工大学";
+        //schoolName = "太原理工大学";
+        Person.info();
+        //info();
 
        /* Person person = new Person();
         person.id = 1;

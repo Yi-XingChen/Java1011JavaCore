@@ -17,7 +17,16 @@ public class Demo06 {
             System.out.println("我是方法中的普通语句块");
         }
 
-        Demo05 demo05 = new Demo05(11,"lisi");
+        //Demo05 demo05;
+        /*Demo05 demo05 = new Demo05();
+        System.out.println(demo05.id + "---" + demo05.name);
+        Demo05 demo051 = new Demo05();
+        System.out.println(demo051.id + "---" + demo051.name);*/
+
+//        Demo05 demo05 = new Demo05(11,"lisi");
+        Demo05 demo05 = new Demo05(111);
         System.out.println(demo05.id + "----" + demo05.name + "----" + demo05.sex);
+
+        Demo05 demo051 = new Demo05();
     }
 }

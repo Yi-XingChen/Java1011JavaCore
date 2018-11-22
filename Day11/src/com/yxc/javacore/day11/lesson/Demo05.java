@@ -26,6 +26,10 @@ public class Demo05 {
         System.out.println("哈啊哈，我是游离块！");
     }*/
     {
+        System.out.println("另外一个游离块！");
+        System.out.println(this.id);
+    }
+    {
         System.out.println("哈啊哈，我是游离块！");
         this.name = "无名氏";
         this.id = 1;
@@ -35,18 +39,23 @@ public class Demo05 {
         System.out.println("静态游离块");
     }
 
-    {
-        System.out.println("哈哈，我是另一个游离块！");
+    static {
+        System.out.println("哈哈，我是另一个静态游离块！");
     }
 
-    public Demo05(int id,String name) {
+    /*public Demo05(int id,String name) {
         System.out.println("Demo05的有参构造函数");
         this.id = id;
         this.name = name;
-    }
+    }*/
 
     public Demo05() {
         System.out.println("Demo05的默认无参构造函数");
+    }
+
+    public Demo05(int id) {
+        System.out.println("Demo05的有参构造函数");
+        this.id= id;
     }
 
     public void info() {
@@ -69,9 +78,10 @@ public class Demo05 {
         Demo05 demo051 = new Demo05();
         System.out.println(demo051.id + "----" + demo051.name);*/
 
-        Demo05 demo05 = new Demo05(11,"lisi");
+//        Demo05 demo05 = new Demo05(11,"lisi");
+        Demo05 demo05 = new Demo05(111);
         System.out.println(demo05.id + "----" + demo05.name + "----" + demo05.sex);
 
-
+        Demo05 demo051 = new Demo05();
     }
 }

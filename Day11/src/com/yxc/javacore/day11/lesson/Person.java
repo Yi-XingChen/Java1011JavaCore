@@ -20,9 +20,16 @@ public class Person {
 
     public String sex;
 
-    /*使用static修饰之后就变成了类变量、静态成员变量、静态属性;
-    调用时，用 类名.静态属性 形式
+    /**
+     * 静态关键字不允许修饰构造函数
      */
+    /*public static Person() {
+
+    }*/
+
+    /**使用static修饰之后就变成了类变量、静态成员变量、静态属性;
+    * 调用时，用 类名.静态属性 形式
+    */
     public static String schoolName = "太原工业大学";
 
     /*
@@ -39,6 +46,7 @@ public class Person {
     }
 
     public void sleep() {
+        Person.schoolName = "太原理工大学";
         schoolName = "太原理工大学";
         Person.info();
         info();
@@ -66,5 +74,6 @@ public class Person {
         就进行加载的，加载成员方法时，该静态成员变量已经完成了初始化，所以能够引用
          */
         //System.out.println("schoolName:" + this.schoolName);
+        System.out.println("schoolName:" + schoolName);
     }
 }

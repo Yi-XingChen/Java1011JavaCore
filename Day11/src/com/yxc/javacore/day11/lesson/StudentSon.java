@@ -3,7 +3,7 @@ package com.yxc.javacore.day11.lesson;
 /**
  * Copyright(c)2018 YXC.All rights Reserved
  *
- * final测试
+ * final关键字的使用
  *
  * @author 3342
  * @version 1.0
@@ -12,6 +12,7 @@ package com.yxc.javacore.day11.lesson;
 //public class StudentSon{
     //final修饰Student类型之后，就不可以被继承了
 public class StudentSon extends Student{
+    @Override
     public void eat() {
         System.out.println("这个学生贼能吃！");
     }
